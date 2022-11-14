@@ -41,7 +41,7 @@ And, on top of all that, we do appreciate organization and consistence a lot. No
 ### Set up the Database
 
 To create the database, the best scenario is if you can follow the schema-first strategy with Prisma, first creating a schema file that describes each entity (with proper normalization in mind), then generating SQL migrations to build the relational DB.
-
+    
 > _**Tip:** If your code can show us a strong understanding on Prisma schema, database level types, primary keys, foreign keys, indexes, we consider it a bonus. Also, if you can automate the local database creation/configuration step, i.e. exposing a PostgreSQL instance as a Docker container with migrations and seed automatically applied, within only one command to run, we consider it a bonus._
 
 To populate the database, the best scenario is if you can leverage Prisma's seed feature to automatically fill the tables with the sample data we provide as CSV files for [transactions](./data/transactions.csv), [accounts](./data/accounts.csv), and [categories](./data/categories.csv).
